@@ -1,0 +1,25 @@
+{
+  "name": "uxrocket.textlimit",
+  "version": "0.4.0",
+  "description": "Textlimit and remaining chars",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uxrocket/uxrocket.textlimit.git"
+  },
+  "dependencies": {
+	"jquery": "latest"
+  },
+  "keywords": [
+    "jQuery",
+    "javascript",
+    "input",
+    "textarea",
+	"uxrocket"
+  ],
+  "author": "Bilal Cinarli <bcinarli@gmail.com> (http://bcinarli.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uxrocket/uxrocket.textlimit/issues"
+  },
+  "homepage": "https://github.com/uxrocket/uxrocket.textlimit"
+}

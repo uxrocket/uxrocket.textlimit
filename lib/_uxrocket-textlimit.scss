@@ -1,0 +1,37 @@
+/* @author Bilal Cinarli */
+$version: 0.2;
+
+/** -------------------------------------------
+    Text Limit functions
+    ------------------------------------------- **/
+.uxitd-textlimit-wrap {
+    position: relative;
+    display: inline-block;
+
+    &[class*="-columns"] {
+        [class*="-columns"] {
+            width: 90%;
+        }
+    }
+}
+
+    .uxitd-textlimit-ready {
+        width: 90%;
+
+        .uxitd-hide-remaining & {
+            width: 100% !important;
+        }
+
+        + .uxitd-textlimit-remaining {
+            margin-left: 3px;
+        }
+    }
+
+    .uxitd-textlimit-remaining {
+        color: #37ade0;
+        line-height: 1em;
+
+        .uxitd-hide-remaining & {
+            display: none;
+        }
+    }
