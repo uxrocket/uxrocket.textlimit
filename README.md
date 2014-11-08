@@ -35,6 +35,7 @@ onLimit              | Alana girilebilecek maksimum karakter sayısına ulaştı
 
 
 ### Public Metodlar
+Method						             | Açıklama
 ------------------------------ | -------------------------------------------------------
 $(selector).textlimit(options) | Bu method plugini manuel olarak bir elemana bağlamanızı sağlar.
 $.uxtextlimit                  | Bu method pluginin detayını görmenizi sağlar.
