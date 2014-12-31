@@ -1,3 +1,6 @@
+## Versiyon 0.7.1
+- FIX: uxRocket registrysi içine hasWrapper tanımı eklendi.
+
 ## Versiyon 0.7.0
 - YENİ: Yeni tanımlanmaya başlayan, elemana bağlanmış uxRocket plugin listesi kontrolleri eklendi.
 - YENİ: Plugin eventleri "uxTextLimit" namespace adı altında tanımlanmaya başlandı.
