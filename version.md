@@ -1,3 +1,8 @@
+## Versiyon 0.8.0
+- YENİ: Karakter sayısı metni option olarak eklendi.
+- YENİ: `.remaining` elemanı için parent'a sahip olma durumu eklendi.
+- DEĞİŞİKLİK: Limitlenen elemanın wrap edilme metodu değiştirildi.
+
 ## Versiyon 0.7.1
 - FIX: uxRocket registrysi içine hasWrapper tanımı eklendi.
 
