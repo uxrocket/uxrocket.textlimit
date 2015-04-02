@@ -1,3 +1,10 @@
+## Versiyon 0.9.0
+- YENİ: `$.uxtextlimit.remove(el)` metodu eklendi.
+- YENİ: `$.uxtextlimit.remove(el)` metodu eklendi.
+- DEĞİŞİKLİK: Kontrol eventlerine `focus` ve `input` kontrolü eklendi.
+- FIX: maxlength `0` olduğu durumda, limit kontrolünün iptal olmaması sorunu giderildi.
+
+
 ## Versiyon 0.8.0
 - YENİ: Karakter sayısı metni option olarak eklendi.
 - YENİ: `.remaining` elemanı için parent'a sahip olma durumu eklendi.
