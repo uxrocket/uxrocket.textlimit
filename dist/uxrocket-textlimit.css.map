@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAMA,qBAAsB,CAClB,QAAQ,CAAE,QAAQ,CAClB,OAAO,CAAE,YAAY,CAGjB,4DAAoB,CAChB,KAAK,CAAE,GAAG,CAKlB,sBAAuB,CACnB,KAAK,CAAE,GAAG,CAEV,4CAAwB,CACpB,KAAK,CAAE,eAAe,CAG1B,iDAA6B,CACzB,WAAW,CAAE,GAAG,CAIxB,0BAA2B,CACvB,KAAK,CAAE,OAAO,CACd,WAAW,CAAE,GAAG,CAEhB,gDAAwB,CACpB,OAAO,CAAE,IAAI",
+"sources": ["../lib/_uxrocket-textlimit.scss"],
+"names": [],
+"file": "uxrocket-textlimit.css"
+}
