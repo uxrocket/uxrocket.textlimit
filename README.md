@@ -57,6 +57,6 @@ Method						             | Açıklama
 ------------------------------ | -------------------------------------------------------
 $(selector).textlimit(options) | Bu method plugini manuel olarak bir elemana bağlamanızı sağlar.
 $.uxtextlimit                  | Bu method pluginin detayını görmenizi sağlar.
-$.uxtextlimit.update(el)       | Özellikleri değiştirilen textlimiti güncellemeyi sağlar. `el` gönderilmezse sayfadaki bütün textlimit bağlanmış instanceları günceller.
+$.uxtextlimit.update(el)       | Textlimit’i yeni ayarlarla günceller. `el` parametresi verilmemişse textlimit’i kullanan tüm elementleri günceller.
 $.uxtextlimit.remove(el)       | Seçilen elemanda textlimit instance bilgisini ve textlimit aksiyonlarını kaldırır. `el` gönderilmezse sayfadaki bütün textlimitleri kaldırır.
 $.uxtextlimit.version          | Sayfaya eklenmiş pluginin versiyon numarasını gösterir.
