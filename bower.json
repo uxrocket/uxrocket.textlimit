@@ -1,6 +1,6 @@
 {
   "name": "uxrocket.textlimit",
-  "version": "0.9.0",
+  "version": "1.0.0",
   "homepage": "https://github.com/uxrocket/uxrocket.textlimit",
   "authors": [
     "Bilal Çınarlı <bcinarli@gmail.com>"
@@ -8,7 +8,7 @@
   "description": "Textlimit and remaining chars",
   "main": "lib/uxrocket.textlimit.js",
   "dependencies": {
-    "jquery": ">=1.11.1"
+    "jquery": "latest"
   },
   "keywords": [
     "jQuery",
