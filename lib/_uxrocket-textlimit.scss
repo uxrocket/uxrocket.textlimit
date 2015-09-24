@@ -1,0 +1,28 @@
+/* @author Bilal Cinarli */
+$version: "1.0.0";
+
+/** -------------------------------------------
+    Text Limit functions
+    ------------------------------------------- **/
+.uxr-textlimit {
+    &-wrap {
+        position: relative;
+        display: inline-block;
+    }
+
+    &-ready {
+        width: 90%;
+
+        .uxr-textlimit-hide-remaining & {
+            width: 100%;
+        }
+    }
+
+    &-remaining {
+        line-height: 1em;
+
+        .uxr-textlimit-hide-remaining & {
+            display: none;
+        }
+    }
+}
