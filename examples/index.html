@@ -26,10 +26,6 @@
 				font-size: 1rem;
 				padding: 5px;
 			}
-
-			.hide {
-				display: none;
-			}
 		</style>
         <link rel="stylesheet" href="../dist/uxrocket.textlimit.css" />
 	</head>
@@ -38,7 +34,7 @@
 		<div class="content">
 			<div class="example">
 				<p class="wrap">
-					<input type="text" class="textlimit" maxlength="20" data-on-update="console.log('updated')" />
+					<input type="text" class="textlimit" maxlength="20" data-on-update="console.log('updated')" data-on-limit="console.log('you have reached the max size')" />
 				</p>
 
 				<p class="wrap">
