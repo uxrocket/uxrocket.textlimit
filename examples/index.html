@@ -1,10 +1,10 @@
 <!doctype html>
 <html>
 	<head>
-		<title>UX Rocket TextLimit Sample</title>
+		<title>UX Rocket TextLimit</title>
 		<meta charset="utf-8" />
 		
-		<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+		<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
 		<script src="../lib/uxrocket.textlimit.js"></script>
 		<script>
 			$(function(){
@@ -17,7 +17,7 @@
 			body { margin: 0; padding: 0; font: 16px/1.4 "Gill Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 			.content { padding: 5em; }
 
-			.uxitd-plugin-wrap {
+			.uxr-plugin-wrap {
 				width: 250px;
 			}
 
@@ -26,23 +26,20 @@
 				font-size: 1rem;
 				padding: 5px;
 			}
-
-			.hide {
-				display: none;
-			}
 		</style>
-        <link rel="stylesheet" href="../dist/uxrocket-textlimit.css" />
+        <link rel="stylesheet" href="../dist/uxrocket.textlimit.css" />
 	</head>
 	
 	<body>
 		<div class="content">
 			<div class="example">
 				<p class="wrap">
-					<input type="text" class="textlimit" maxlength="20" data-on-update="console.log('updated')" />
+					<input type="text" class="textlimit" maxlength="20" data-on-update="console.log('updated')" data-on-limit="console.log('you have reached the max size')" />
 				</p>
 
 				<p class="wrap">
 					<textarea class="textlimit" placeholder="Type something..." maxlength="150"></textarea>
+					<span class="remaining"></span>
 				</p>
 			</div>
 		</div>

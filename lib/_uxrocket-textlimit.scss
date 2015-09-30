@@ -1,37 +1,28 @@
 /* @author Bilal Cinarli */
-$version: "0.9.0";
+$version: "1.0.0";
 
 /** -------------------------------------------
     Text Limit functions
     ------------------------------------------- **/
-.uxitd-textlimit-wrap {
-    position: relative;
-    display: inline-block;
-
-    &[class*="-columns"] {
-        [class*="-columns"] {
-            width: 90%;
-        }
+.uxr-textlimit {
+    &-wrap {
+        position: relative;
+        display: inline-block;
     }
-}
 
-    .uxitd-textlimit-ready {
+    &-ready {
         width: 90%;
 
-        .uxitd-hide-remaining & {
-            width: 100% !important;
-        }
-
-        + .uxitd-textlimit-remaining {
-            margin-left: 3px;
+        .uxr-textlimit-hide-remaining & {
+            width: 100%;
         }
     }
 
-    .uxitd-textlimit-remaining {
-        color: #37ade0;
+    &-remaining {
         line-height: 1em;
 
-        .uxitd-hide-remaining & {
+        .uxr-textlimit-hide-remaining & {
             display: none;
         }
     }
+}
