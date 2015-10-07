@@ -1,7 +1,7 @@
 /*! UX Rocket Textlimit 
  *  Textlimit and remaining chars 
  *  @author Bilal Cinarli <bcinarli@gmail.com> (http://bcinarli.com/) 
- *  @version 1.0.0 
- *  @build Wed Sep 30 2015 09:01:10 GMT+0300 (EEST) 
+ *  @version 1.1.0 
+ *  @build Wed Oct 07 2015 18:42:54 GMT+0300 (EEST) 
  */
 .uxr-textlimit-wrap{position:relative;display:inline-block}.uxr-textlimit-ready{width:90%}.uxr-textlimit-hide-remaining .uxr-textlimit-ready{width:100%}.uxr-textlimit-remaining{line-height:1em}.uxr-textlimit-hide-remaining .uxr-textlimit-remaining{display:none}
