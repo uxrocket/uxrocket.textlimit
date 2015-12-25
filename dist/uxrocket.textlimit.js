@@ -23,7 +23,7 @@
         rocketName = 'uxrTextlimit',
         i = 1,
         defaults = {
-            maxLength: 20,
+            maxLength: 0,
             remainingText: 'Remaining Characters',
             remaining: '.remaining',
             visible: true,
@@ -349,7 +349,7 @@
 
 
 // version
-    ux.version = '1.1.0';
+    ux.version = '1.1.1';
 
 // default settings
     ux.settings = defaults;

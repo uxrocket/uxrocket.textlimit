@@ -1,3 +1,6 @@
+## Version 1.1.1
+    - FIX: Html içerisine eklenen remaining elementinin destroy problemi giderildi.
+    - FIX: Default max length değeri düzeltildi.
 ## Version 1.1.0
 - DEĞİŞİKLİK: Plugin mimarisi değiştirildi
 
