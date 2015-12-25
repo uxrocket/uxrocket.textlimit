@@ -11,7 +11,7 @@
     "jquery": "latest"
   },
   "devDependencies": {
-    "uxrocket.factory": "1.0.0-alpha3"
+    "uxrocket.factory": "1.0.0-alpha2"
   },
   "keywords": [
     "jQuery",
