@@ -1,3 +1,6 @@
+## Version 1.1.0
+- DEĞİŞİKLİK: Plugin mimarisi değiştirildi
+
 ## Versiyon 0.9.0
 - YENİ: `$.uxtextlimit.remove(el)` metodu eklendi.
 - YENİ: `$.uxtextlimit.remove(el)` metodu eklendi.
